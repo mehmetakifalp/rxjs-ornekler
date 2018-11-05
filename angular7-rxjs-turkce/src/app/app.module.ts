@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { ContentComponent } from './content/content.component';
 import { DetailComponent } from './home/detail/detail.component';
 import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
+import { ZipComponent } from './content/zip/zip.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DebouncetimeComponent } from './content/debouncetime/debouncetime.compo
     ContentComponent,
     HomeComponent,
     DetailComponent,
-    DebouncetimeComponent
+    DebouncetimeComponent,
+    ZipComponent
   ],
   imports: [
     BrowserModule,

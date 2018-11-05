@@ -11,7 +11,7 @@ export class HomeComponent {
 
   columns = [
     { name: 'debounceTime', description: "debounceTime", id:1, url: '/debouncetime'},
-    { name: 'Of', description: "Kısa Açıklama 2", id:2 },
+    { name: 'zip', description: "zip", id:2, url: '/zip' },
     { name: 'Subject', description: "Kısa Açıklama 3", id:3 }
   ];
 
