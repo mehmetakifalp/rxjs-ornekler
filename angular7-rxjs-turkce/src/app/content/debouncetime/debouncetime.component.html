@@ -1,4 +1,16 @@
 <p>
   debouncetime works!
 </p>
-<input type="text"  (input)="makeSearch($event.target.value)">
+<input type="text" (input)="makeSearch($event.target.value)">
+
+
+{{(datalist$ | async | json)}}
+
+
+<br>
+
+
+<p *ngIf="datalist">
+  <b>{{datalist}}</b>  için sonuçlar :
+</p>
+

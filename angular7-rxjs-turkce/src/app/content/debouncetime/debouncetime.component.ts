@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Subject, BehaviorSubject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
 @Component({
@@ -11,11 +11,12 @@ export class DebouncetimeComponent implements OnInit {
 
   dataList$ = new Subject<string>();
 
+  datalist:string;
   constructor() {
 
     this.dataList$.pipe(debounceTime(1000)).subscribe(
       d => {
-        console.log(d);
+        this.datalist = d;
       }
     )
 
@@ -25,6 +26,8 @@ export class DebouncetimeComponent implements OnInit {
   }
 
   makeSearch(value){
+
+
     this.dataList$.next(value);
    }
 

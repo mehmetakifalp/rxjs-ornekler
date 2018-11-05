@@ -10,7 +10,7 @@ export class HomeComponent {
   rows = [];
 
   columns = [
-    { name: 'Map', description: "Kısa Açıklama 1", id:1},
+    { name: 'debounceTime', description: "debounceTime", id:1, url: '/debouncetime'},
     { name: 'Of', description: "Kısa Açıklama 2", id:2 },
     { name: 'Subject', description: "Kısa Açıklama 3", id:3 }
   ];

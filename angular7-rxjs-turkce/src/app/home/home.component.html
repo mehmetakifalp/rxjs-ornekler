@@ -17,7 +17,7 @@ class="material"
 </ngx-datatable-column>
 <ngx-datatable-column name="Detay">
     <ng-template let-row="row" let-value="value" ngx-datatable-cell-template>
-        <a [routerLink]="['detay', row.id]">Detay</a>
+        <a [routerLink]="[row.url]">Detay</a>
     </ng-template>
 
 </ngx-datatable-column>
