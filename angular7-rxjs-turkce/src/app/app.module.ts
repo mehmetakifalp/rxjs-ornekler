@@ -10,6 +10,8 @@ import { ContentComponent } from './content/content.component';
 import { DetailComponent } from './home/detail/detail.component';
 import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
 import { ZipComponent } from './content/zip/zip.component';
+import { ls } from './services/jsdata.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,10 @@ import { ZipComponent } from './content/zip/zip.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxDatatableModule
+    NgxDatatableModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ls],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
