@@ -8,6 +8,7 @@ import { HeaderComponent } from './static/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ContentComponent } from './content/content.component';
 import { DetailComponent } from './home/detail/detail.component';
+import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DetailComponent } from './home/detail/detail.component';
     HeaderComponent,
     ContentComponent,
     HomeComponent,
-    DetailComponent
+    DetailComponent,
+    DebouncetimeComponent
   ],
   imports: [
     BrowserModule,
