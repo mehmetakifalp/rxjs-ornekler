@@ -1,0 +1,7 @@
+<p>
+  interval works!
+</p>
+
+<input #msDef type="number">
+<button (click)="defineNewInterval(msDef.value)">Submit</button>
+<p *ngIf="msDefinition && period">Every  {{msDefinition}} millisecond {{period+1}} times it works!</p>

@@ -13,7 +13,6 @@ export class ls {
    ngOnInit(){
 
    }
-
    getFunctions(){
     this.http.get('https://jsonplaceholder.typicode.com/todos/').subscribe(
       data => {

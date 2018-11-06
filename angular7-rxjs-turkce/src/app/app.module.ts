@@ -12,6 +12,7 @@ import { DebouncetimeComponent } from './content/debouncetime/debouncetime.compo
 import { ZipComponent } from './content/zip/zip.component';
 import { ls } from './services/jsdata.service';
 import { HttpClientModule } from '@angular/common/http';
+import { IntervalComponent } from './content/interval/interval.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     DetailComponent,
     DebouncetimeComponent,
-    ZipComponent
+    ZipComponent,
+    IntervalComponent
   ],
   imports: [
     BrowserModule,

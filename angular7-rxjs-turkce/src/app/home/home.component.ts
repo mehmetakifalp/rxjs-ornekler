@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit{
   columns = [
     { name: 'debounceTime', description: "debounceTime", id:1, url: '/debouncetime'},
     { name: 'zip', description: "zip", id:2, url: '/zip' },
-    { name: 'Subject', description: "Kısa Açıklama 3", id:3 }
+    { name: 'interval', description: "Interval", id:3, url: '/interval' }
   ];
 
   constructor(private jsData: ls) {
