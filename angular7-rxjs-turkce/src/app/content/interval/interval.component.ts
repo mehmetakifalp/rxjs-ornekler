@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { interval, Subscription } from 'rxjs';
 import { take } from 'rxjs/operators';
+import sdk from '@stackblitz/sdk';
 
 @Component({
   selector: 'app-interval',
@@ -19,8 +20,7 @@ export class IntervalComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
-
+    sdk.embedProjectId("myDiv", "angular-rxjs-interval-turkce", {height:500});
   }
 
 
