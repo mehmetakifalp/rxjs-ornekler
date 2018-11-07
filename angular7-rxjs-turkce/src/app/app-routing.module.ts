@@ -5,6 +5,7 @@ import { DetailComponent } from './home/detail/detail.component';
 import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
 import { ZipComponent } from './content/zip/zip.component';
 import { IntervalComponent } from './content/interval/interval.component';
+import { RangeComponent } from './content/range/range.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent, pathMatch:'full'},
@@ -15,8 +16,8 @@ const routes: Routes = [
 
 
   {path: 'zip', component: ZipComponent},
-  {path: 'interval', component: IntervalComponent}
-
+  {path: 'interval', component: IntervalComponent},
+  {path: 'range', component: RangeComponent}
 ];
 
 @NgModule({

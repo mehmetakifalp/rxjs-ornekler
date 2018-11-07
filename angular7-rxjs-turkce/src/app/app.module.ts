@@ -13,6 +13,7 @@ import { ZipComponent } from './content/zip/zip.component';
 import { ls } from './services/jsdata.service';
 import { HttpClientModule } from '@angular/common/http';
 import { IntervalComponent } from './content/interval/interval.component';
+import { RangeComponent } from './content/range/range.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { IntervalComponent } from './content/interval/interval.component';
     DetailComponent,
     DebouncetimeComponent,
     ZipComponent,
-    IntervalComponent
+    IntervalComponent,
+    RangeComponent
   ],
   imports: [
     BrowserModule,
