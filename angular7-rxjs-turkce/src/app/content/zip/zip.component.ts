@@ -20,7 +20,7 @@ export class ZipComponent implements OnInit {
 
   ngOnInit() {
 
-
+/*
     this.zipped$.pipe(zip(
       this.first,
       this.second,
@@ -31,7 +31,7 @@ export class ZipComponent implements OnInit {
       }
     ));
 
-
+*/
   }
 
 }
