@@ -13,7 +13,10 @@ export class HomeComponent implements OnInit{
   columns = [
     { name: 'debounceTime', description: "debounceTime", id:1, url: '/debouncetime'},
     { name: 'zip', description: "zip", id:2, url: '/zip' },
-    { name: 'interval', description: "Interval", id:3, url: '/interval' }
+    { name: 'interval', description: "Interval", id:3, url: '/interval' },
+    { name: 'range', description: "Range", id:4, url: '/range' },
+    {name: 'groupBy', description: "groupBy", id:5, url: 'groupby'},
+
   ];
 
   constructor(private jsData: ls) {

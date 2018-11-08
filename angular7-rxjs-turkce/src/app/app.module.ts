@@ -15,6 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { IntervalComponent } from './content/interval/interval.component';
 import { CombinelatestComponent } from './content/combinelatest/combinelatest.component';
 import { FromeventComponent } from './content/fromevent/fromevent.component';
+import { RangeComponent } from './content/range/range.component';
+import { GroupbyComponent } from './content/groupby/groupby.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { FromeventComponent } from './content/fromevent/fromevent.component';
     IntervalComponent,
     CombinelatestComponent,
     FromeventComponent,
+    RangeComponent,
+    GroupbyComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls],
