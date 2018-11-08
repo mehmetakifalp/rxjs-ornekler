@@ -31,7 +31,6 @@ export class IntervalComponent implements OnInit {
   }
 
   stopInterval(){
-    console.log("stop");
     this.sub.unsubscribe();
   }
 
