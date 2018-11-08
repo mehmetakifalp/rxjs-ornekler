@@ -13,6 +13,8 @@ import { ZipComponent } from './content/zip/zip.component';
 import { ls } from './services/jsdata.service';
 import { HttpClientModule } from '@angular/common/http';
 import { IntervalComponent } from './content/interval/interval.component';
+import { CombinelatestComponent } from './content/combinelatest/combinelatest.component';
+import { FromeventComponent } from './content/fromevent/fromevent.component';
 
 @NgModule({
   declarations: [
@@ -23,15 +25,12 @@ import { IntervalComponent } from './content/interval/interval.component';
     DetailComponent,
     DebouncetimeComponent,
     ZipComponent,
-    IntervalComponent
+    IntervalComponent,
+    CombinelatestComponent,
+    FromeventComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgxDatatableModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
