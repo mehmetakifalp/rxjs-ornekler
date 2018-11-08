@@ -14,6 +14,7 @@ import { ls } from './services/jsdata.service';
 import { HttpClientModule } from '@angular/common/http';
 import { IntervalComponent } from './content/interval/interval.component';
 import { RangeComponent } from './content/range/range.component';
+import { GroupbyComponent } from './content/groupby/groupby.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RangeComponent } from './content/range/range.component';
     DebouncetimeComponent,
     ZipComponent,
     IntervalComponent,
-    RangeComponent
+    RangeComponent,
+    GroupbyComponent
   ],
   imports: [
     BrowserModule,

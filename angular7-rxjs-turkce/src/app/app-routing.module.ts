@@ -6,6 +6,7 @@ import { DebouncetimeComponent } from './content/debouncetime/debouncetime.compo
 import { ZipComponent } from './content/zip/zip.component';
 import { IntervalComponent } from './content/interval/interval.component';
 import { RangeComponent } from './content/range/range.component';
+import { GroupbyComponent } from './content/groupby/groupby.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent, pathMatch:'full'},
@@ -17,7 +18,9 @@ const routes: Routes = [
 
   {path: 'zip', component: ZipComponent},
   {path: 'interval', component: IntervalComponent},
-  {path: 'range', component: RangeComponent}
+  {path: 'range', component: RangeComponent},
+  {path: 'groupby', component: GroupbyComponent}
+
 ];
 
 @NgModule({
