@@ -1,3 +1,1 @@
-Rxjs Türkçe Kaynak
-
-- Uygulamalı örnekler ile Türkçe RXJS.
+# Angular7RxjsTurkce
