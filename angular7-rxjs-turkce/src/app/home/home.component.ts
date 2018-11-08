@@ -15,7 +15,9 @@ export class HomeComponent implements OnInit{
     { name: 'zip', description: "zip", id:2, url: '/zip' },
     { name: 'interval', description: "Interval", id:3, url: '/interval' },
     { name: 'range', description: "Range", id:4, url: '/range' },
-    {name: 'groupBy', description: "groupBy", id:5, url: 'groupby'},
+    {name: 'groupBy', description: "groupBy", id:5, url: '/groupby'},
+    {name: 'combineLatest', description:'combineLatest', id:6, url:'/combineLatest'},
+    {name:'fromEvent', description: 'fromEvent', id:7, url: '/fromEvent'}
 
   ];
 

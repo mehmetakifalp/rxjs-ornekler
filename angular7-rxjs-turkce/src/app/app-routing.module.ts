@@ -22,8 +22,6 @@ const routes: Routes = [
   { path: 'range', component: RangeComponent },
   { path: 'groupby', component: GroupbyComponent },
 
-  { path: 'zip', component: ZipComponent },
-  { path: 'interval', component: IntervalComponent },
   { path: 'combineLatest', component: CombinelatestComponent },
   { path: 'fromEvent', component: FromeventComponent },
 ];
