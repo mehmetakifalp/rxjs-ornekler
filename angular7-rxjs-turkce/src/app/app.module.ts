@@ -13,6 +13,8 @@ import { ZipComponent } from './content/zip/zip.component';
 import { ls } from './services/jsdata.service';
 import { HttpClientModule } from '@angular/common/http';
 import { IntervalComponent } from './content/interval/interval.component';
+import { CombinelatestComponent } from './content/combinelatest/combinelatest.component';
+import { FromeventComponent } from './content/fromevent/fromevent.component';
 import { RangeComponent } from './content/range/range.component';
 import { GroupbyComponent } from './content/groupby/groupby.component';
 
@@ -26,16 +28,13 @@ import { GroupbyComponent } from './content/groupby/groupby.component';
     DebouncetimeComponent,
     ZipComponent,
     IntervalComponent,
+    CombinelatestComponent,
+    FromeventComponent,
     RangeComponent,
-    GroupbyComponent
+    GroupbyComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgxDatatableModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

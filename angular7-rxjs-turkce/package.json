@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -24,6 +24,7 @@
     "@swimlane/ngx-datatable": "^14.0.0",
     "core-js": "^2.5.4",
     "ngx-bootstrap": "^3.1.1",
+    "node-sass": "^4.10.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
