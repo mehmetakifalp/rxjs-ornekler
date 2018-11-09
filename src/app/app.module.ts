@@ -5,10 +5,8 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './static/header/header.component';
-import { HomeComponent } from './home/home.component';
 import { ContentComponent } from './content/content.component';
 import { DetailComponent } from './home/detail/detail.component';
-import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
 import { ZipComponent } from './content/zip/zip.component';
 import { ls } from './services/jsdata.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -17,6 +15,9 @@ import { CombinelatestComponent } from './content/combinelatest/combinelatest.co
 import { FromeventComponent } from './content/fromevent/fromevent.component';
 import { RangeComponent } from './content/range/range.component';
 import { GroupbyComponent } from './content/groupby/groupby.component';
+import { FromComponent } from './content/from/from.component';
+import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { GroupbyComponent } from './content/groupby/groupby.component';
     FromeventComponent,
     RangeComponent,
     GroupbyComponent,
+    FromComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls],
