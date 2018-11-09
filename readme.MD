@@ -13,8 +13,8 @@
 6. combineLatest
 7. fromEvent
 
-
-@mehmterim :+1: This Repo looks great - it's ready to merge! :shipit:
-
+:+1: This Repo looks great - it's ready to merge! :shipit:
+@mehmetakifalp
+@mehmterim
 
 
