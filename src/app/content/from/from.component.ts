@@ -7,6 +7,7 @@ import sdk from '@stackblitz/sdk';
   styles: [``],
 })
 export class FromComponent implements AfterContentInit {
+
   constructor() {}
 
   ngAfterContentInit() {

@@ -12,7 +12,7 @@
 5. groupBy
 6. combineLatest
 7. fromEvent
-
+8. from
 
 **Yapılacaklar Listesi :**
 

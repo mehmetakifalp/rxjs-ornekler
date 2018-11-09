@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit{
     { name: 'range', description: "Range", id:4, url: '/range' },
     {name: 'groupBy', description: "groupBy", id:5, url: '/groupby'},
     {name: 'combineLatest', description:'combineLatest', id:6, url:'/combineLatest'},
-    { name: 'fromEvent', description: 'fromEvent', id: 7, url: '/fromEvent' }
+    { name: 'fromEvent', description: 'fromEvent', id: 7, url: '/fromEvent' },
     { name: 'from', description: 'from', id: 19, url: '/from'}
 
   ];
