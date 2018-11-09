@@ -17,6 +17,7 @@ import { CombinelatestComponent } from './content/combinelatest/combinelatest.co
 import { FromeventComponent } from './content/fromevent/fromevent.component';
 import { RangeComponent } from './content/range/range.component';
 import { GroupbyComponent } from './content/groupby/groupby.component';
+import { SidebarComponent } from './static/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -32,9 +33,10 @@ import { GroupbyComponent } from './content/groupby/groupby.component';
     FromeventComponent,
     RangeComponent,
     GroupbyComponent,
+    SidebarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
-  providers: [ls],
+  providers: [ls, HomeComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

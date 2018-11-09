@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit{
 
   rows = [];
 
+
   columns = [
     { name: 'debounceTime', description: "debounceTime", id:1, url: '/debouncetime'},
     { name: 'zip', description: "zip", id:2, url: '/zip' },
