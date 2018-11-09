@@ -18,6 +18,7 @@ import { GroupbyComponent } from './content/groupby/groupby.component';
 import { FromComponent } from './content/from/from.component';
 import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
 import { HomeComponent } from './home/home.component';
+import { SidebarComponent } from './static/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -34,9 +35,10 @@ import { HomeComponent } from './home/home.component';
     RangeComponent,
     GroupbyComponent,
     FromComponent,
+    SidebarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
-  providers: [ls],
+  providers: [ls, HomeComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
