@@ -13,6 +13,16 @@
 6. combineLatest
 7. fromEvent
 
+
+**Yapılacaklar Listesi :**
+
+
+- [x] Sidebar componentin hazırlanması, header ve datatable'da tasarımsal düzenlemeler.
+- [ ] Her operatörün uygulamasının stackblitz'e taşınması ve türkçe açıklamalarının detaylandırılması
+
+
+
+
 :+1: This Repo looks great - it's ready to merge! :shipit:
 @mehmetakifalp
 @mehmterim
