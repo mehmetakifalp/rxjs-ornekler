@@ -19,6 +19,7 @@ import { FromComponent } from './content/from/from.component';
 import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
 import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './static/sidebar/sidebar.component';
+import { RaceComponent } from './content/race/race.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { SidebarComponent } from './static/sidebar/sidebar.component';
     GroupbyComponent,
     FromComponent,
     SidebarComponent,
+    RaceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],
