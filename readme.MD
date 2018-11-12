@@ -16,6 +16,8 @@
 8. from
 9. timer
 10. throwError
+11. race
+12. share
 
 **Yapılacaklar Listesi :**
 

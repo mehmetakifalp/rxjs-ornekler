@@ -20,6 +20,8 @@ export class HomeComponent implements OnInit {
     { name: 'from', description: 'from', id: 19, url: '/from' },
     { name: 'timer', description: 'timer', id: 20, url: '/timer' },
     { name: 'throwError', description: 'throwError', id: 21, url: '/throwError' },
+    { name: 'from', description: 'from', id: 8, url: '/from' },
+    { name: 'race', description: 'race', id: 9, url: '/race' },
   ];
 
   constructor(private jsData: ls) {}

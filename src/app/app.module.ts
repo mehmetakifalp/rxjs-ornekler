@@ -21,6 +21,7 @@ import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './static/sidebar/sidebar.component';
 import { TimerComponent } from './content/timer/timer.component';
 import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
+import { RaceComponent } from './content/race/race.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { ThrowErrorComponent } from './content/throw-error/throw-error.component
     SidebarComponent,
     TimerComponent,
     ThrowErrorComponent,
+    RaceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],
