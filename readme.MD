@@ -14,6 +14,7 @@
 7. fromEvent
 8. from
 9. race
+10. share
 
 **Yapılacaklar Listesi :**
 
