@@ -10,6 +10,8 @@ import { FromeventComponent } from './content/fromevent/fromevent.component';
 import { RangeComponent } from './content/range/range.component';
 import { GroupbyComponent } from './content/groupby/groupby.component';
 import { FromComponent } from './content/from/from.component';
+import { TimerComponent } from './content/timer/timer.component';
+import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -26,6 +28,8 @@ const routes: Routes = [
   { path: 'combineLatest', component: CombinelatestComponent },
   { path: 'fromEvent', component: FromeventComponent },
   { path: 'from', component: FromComponent },
+  { path: 'timer', component: TimerComponent },
+  { path: 'throwError', component: ThrowErrorComponent },
 ];
 
 @NgModule({

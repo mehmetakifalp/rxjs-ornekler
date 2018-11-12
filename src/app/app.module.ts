@@ -19,6 +19,8 @@ import { FromComponent } from './content/from/from.component';
 import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
 import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './static/sidebar/sidebar.component';
+import { TimerComponent } from './content/timer/timer.component';
+import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { SidebarComponent } from './static/sidebar/sidebar.component';
     GroupbyComponent,
     FromComponent,
     SidebarComponent,
+    TimerComponent,
+    ThrowErrorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],

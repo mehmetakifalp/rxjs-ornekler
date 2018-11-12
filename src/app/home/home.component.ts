@@ -3,42 +3,33 @@ import { ls } from '../services/jsdata.service';
 
 @Component({
   selector: 'app-home',
-  templateUrl:'home.component.html',
-styleUrls: ['home.component.scss']
+  templateUrl: 'home.component.html',
+  styleUrls: ['home.component.scss'],
 })
-export class HomeComponent implements OnInit{
-
+export class HomeComponent implements OnInit {
   rows = [];
 
-
   columns = [
-    { name: 'debounceTime', description: "debounceTime", id:1, url: '/debouncetime'},
-    { name: 'zip', description: "zip", id:2, url: '/zip' },
-    { name: 'interval', description: "Interval", id:3, url: '/interval' },
-    { name: 'range', description: "Range", id:4, url: '/range' },
-    {name: 'groupBy', description: "groupBy", id:5, url: '/groupby'},
-    {name: 'combineLatest', description:'combineLatest', id:6, url:'/combineLatest'},
+    { name: 'debounceTime', description: 'debounceTime', id: 1, url: '/debouncetime' },
+    { name: 'zip', description: 'zip', id: 2, url: '/zip' },
+    { name: 'interval', description: 'Interval', id: 3, url: '/interval' },
+    { name: 'range', description: 'Range', id: 4, url: '/range' },
+    { name: 'groupBy', description: 'groupBy', id: 5, url: '/groupby' },
+    { name: 'combineLatest', description: 'combineLatest', id: 6, url: '/combineLatest' },
     { name: 'fromEvent', description: 'fromEvent', id: 7, url: '/fromEvent' },
-    { name: 'from', description: 'from', id: 19, url: '/from'}
-
+    { name: 'from', description: 'from', id: 19, url: '/from' },
+    { name: 'timer', description: 'timer', id: 20, url: '/timer' },
+    { name: 'throwError', description: 'throwError', id: 21, url: '/throwError' },
   ];
 
-  constructor(private jsData: ls) {
+  constructor(private jsData: ls) {}
 
-  }
-
-  ngOnInit(){
+  ngOnInit() {
     this.getRxData();
   }
 
-
-  rxData:any;
-  getRxData(){
+  rxData: any;
+  getRxData() {
     this.rxData = this.jsData.getFunctions();
   }
-
-
-
-
-
 }
