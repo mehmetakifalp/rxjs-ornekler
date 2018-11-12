@@ -13,6 +13,7 @@
 6. combineLatest
 7. fromEvent
 8. from
+9. race
 
 **Yapılacaklar Listesi :**
 
