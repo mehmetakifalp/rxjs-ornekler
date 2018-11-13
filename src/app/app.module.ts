@@ -19,6 +19,8 @@ import { FromComponent } from './content/from/from.component';
 import { DebouncetimeComponent } from './content/debouncetime/debouncetime.component';
 import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './static/sidebar/sidebar.component';
+import { TimerComponent } from './content/timer/timer.component';
+import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 import { RaceComponent } from './content/race/race.component';
 import { ShareComponent } from './content/share/share.component';
 
@@ -38,6 +40,8 @@ import { ShareComponent } from './content/share/share.component';
     GroupbyComponent,
     FromComponent,
     SidebarComponent,
+    TimerComponent,
+    ThrowErrorComponent,
     RaceComponent,
     ShareComponent,
   ],
