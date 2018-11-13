@@ -1,3 +1,45 @@
-<p>
-  share works!
-</p>
+<div class="container-fluid">
+
+    <div class="row flex-xl-nowrap">
+
+    <app-sidebar></app-sidebar>
+      <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+
+        <h2>share</h2>
+
+          <strong>share</strong> Share birden fazla observable kaynağa tek kaynak üzerinden abone olmanızı sağlayan, aynı resource'lara ihtiyaç duyduğunuz zamanlarda, yayın yapıldığı anda iki subscriber'inizinde aynı resource'dan beslenebildiği oldukça faydalı bir rxjs operatörü.
+            <br /><br />
+
+          <div id="myDiv">
+
+
+
+            <input (input)="updateCompanyData($event.value)">
+
+
+
+              <div class="row">
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">  {{data1.value.name}} </h5>
+                        <p class="card-text">  {{data1.value.company}} -   {{data1.value.title}} </p>
+                        <a [routerLink]="'/home'" class="btn btn-primary">Anasayfaya Dön</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+
+          </div>
+
+      </main>
+    </div>
+    </div>
+
+

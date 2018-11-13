@@ -20,7 +20,8 @@ export class HomeComponent implements OnInit{
     {name: 'combineLatest', description:'combineLatest', id:6, url:'/combineLatest'},
     { name: 'fromEvent', description: 'fromEvent', id: 7, url: '/fromEvent' },
     { name: 'from', description: 'from', id: 8, url: '/from'},
-    {name: 'race', description: 'race', id: 9, url: '/race'}
+    {name: 'race', description: 'race', id: 9, url: '/race'},
+    {name: 'share', description: 'share', id:10, url: '/share'}
 
   ];
 
