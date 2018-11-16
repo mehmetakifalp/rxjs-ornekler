@@ -18,9 +18,18 @@ export class ShareComponent implements OnInit {
 
     const sharedObserver = this.dataSource.pipe(share());
 
+    const example1 = sharedObserver.subscribe( a => {
+      console.log("shared example1");
+      console.log(a);
+    });
+
+    const example2 = sharedObserver.subscribe( a => {
+      console.log("shared example2");
+      console.log(a);
+    });
 
 
-
+    // const notExample1 =
 }
 
 }

@@ -31,10 +31,10 @@ const routes: Routes = [
   { path: 'fromEvent', component: FromeventComponent },
   { path: 'from', component: FromComponent },
   { path: 'race', component: RaceComponent},
-  { path: 'share', component: ShareComponent}
+  { path: 'share', component: ShareComponent},
   { path: 'timer', component: TimerComponent },
   { path: 'throwError', component: ThrowErrorComponent },
-  { path: 'race', component: RaceComponent },
+  { path: 'race', component: RaceComponent }
 ];
 
 @NgModule({
