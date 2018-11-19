@@ -13,9 +13,12 @@
 
           <div id="myDiv">
 
+            <ul>
+              <li *ngFor="let item of (notifyData | async);">{{item.value}}</li>
+            </ul>
 
-
-            <input (input)="updateCompanyData($event.value)">
+            <input type="text" #notify />
+            <button (click)="addNewNotification(notify.value)">Kaydet</button>
 
 
             <!--
