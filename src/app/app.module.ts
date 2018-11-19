@@ -22,8 +22,10 @@ import { SidebarComponent } from './static/sidebar/sidebar.component';
 import { TimerComponent } from './content/timer/timer.component';
 import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 import { RaceComponent } from './content/race/race.component';
+import { MapToComponent } from './content/map-to/map-to.component';
 import { ShareComponent } from './content/share/share.component';
 import { StaticandistanceComponent } from './content/staticandistance/staticandistance.component';
+import { ScanComponent } from './scan/scan.component';
 
 @NgModule({
   declarations: [
@@ -44,8 +46,10 @@ import { StaticandistanceComponent } from './content/staticandistance/staticandi
     TimerComponent,
     ThrowErrorComponent,
     RaceComponent,
+    MapToComponent,
     ShareComponent,
     StaticandistanceComponent,
+    ScanComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],

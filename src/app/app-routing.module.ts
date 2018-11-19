@@ -13,8 +13,10 @@ import { FromComponent } from './content/from/from.component';
 import { TimerComponent } from './content/timer/timer.component';
 import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 import { RaceComponent } from './content/race/race.component';
+import { MapToComponent } from './content/map-to/map-to.component';
 import { ShareComponent } from './content/share/share.component';
 import { StaticandistanceComponent } from './content/staticandistance/staticandistance.component';
+import { ScanComponent } from './scan/scan.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -35,9 +37,13 @@ const routes: Routes = [
   { path: 'share', component: ShareComponent},
   { path: 'staticandinstance', component: StaticandistanceComponent},
 
+  { path: 'race', component: RaceComponent },
+  { path: 'share', component: ShareComponent },
   { path: 'timer', component: TimerComponent },
   { path: 'throwError', component: ThrowErrorComponent },
-  { path: 'race', component: RaceComponent }
+  { path: 'race', component: RaceComponent },
+  { path: 'mapTo', component: MapToComponent },
+  { path: 'scan', component: ScanComponent },
 ];
 
 @NgModule({

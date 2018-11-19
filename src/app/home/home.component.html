@@ -1,26 +1,43 @@
 <ngx-datatable
-class="material"
-[rows]="columns"
-[columnMode]="'force'"
-[headerHeight]="50"
-[footerHeight]="50"
-[rowHeight]="'auto'">
-<ngx-datatable-column name="İsim" prop="name">
-  <ng-template let-row="row"  let-value="value" ngx-datatable-cell-template>
-  {{row.name}}
-  </ng-template>
-</ngx-datatable-column>
-<ngx-datatable-column name="Kısa Açıklama" prop="description">
-  <ng-template let-row="row" let-value="value" ngx-datatable-cell-template>
+  class="material"
+  [rows]="columns"
+  [columnMode]="'force'"
+  [headerHeight]="50"
+  [footerHeight]="50"
+  [rowHeight]="'auto'"
+>
+  <ngx-datatable-column
+    name="İsim"
+    prop="name"
+  >
+    <ng-template
+      let-row="row"
+      let-value="value"
+      ngx-datatable-cell-template
+    >
+      {{row.name}}
+    </ng-template>
+  </ngx-datatable-column>
+  <ngx-datatable-column
+    name="Kısa Açıklama"
+    prop="description"
+  >
+    <ng-template
+      let-row="row"
+      let-value="value"
+      ngx-datatable-cell-template
+    >
       {{row.description}}
-  </ng-template>
-</ngx-datatable-column>
-<ngx-datatable-column name="Detay">
-    <ng-template let-row="row" let-value="value" ngx-datatable-cell-template>
-        <a [routerLink]="[row.url]">Detay</a>
+    </ng-template>
+  </ngx-datatable-column>
+  <ngx-datatable-column name="Detay">
+    <ng-template
+      let-row="row"
+      let-value="value"
+      ngx-datatable-cell-template
+    >
+      <a [routerLink]="[row.url]">Detay</a>
     </ng-template>
 
-</ngx-datatable-column>
+  </ngx-datatable-column>
 </ngx-datatable>
-
-{{rxData}}
