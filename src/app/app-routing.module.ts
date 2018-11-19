@@ -13,6 +13,7 @@ import { FromComponent } from './content/from/from.component';
 import { TimerComponent } from './content/timer/timer.component';
 import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 import { RaceComponent } from './content/race/race.component';
+import { MapToComponent } from './content/map-to/map-to.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -32,6 +33,7 @@ const routes: Routes = [
   { path: 'timer', component: TimerComponent },
   { path: 'throwError', component: ThrowErrorComponent },
   { path: 'race', component: RaceComponent },
+  { path: 'mapTo', component: MapToComponent },
 ];
 
 @NgModule({

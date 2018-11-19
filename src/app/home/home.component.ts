@@ -22,6 +22,7 @@ export class HomeComponent implements OnInit {
     { name: 'throwError', description: 'throwError', id: 21, url: '/throwError' },
     { name: 'from', description: 'from', id: 8, url: '/from' },
     { name: 'race', description: 'race', id: 9, url: '/race' },
+    { name: 'mapTo', description: 'mapTo', id: 9, url: '/mapTo' },
   ];
 
   constructor(private jsData: ls) {}

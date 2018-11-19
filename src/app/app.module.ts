@@ -22,6 +22,7 @@ import { SidebarComponent } from './static/sidebar/sidebar.component';
 import { TimerComponent } from './content/timer/timer.component';
 import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 import { RaceComponent } from './content/race/race.component';
+import { MapToComponent } from './content/map-to/map-to.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { RaceComponent } from './content/race/race.component';
     TimerComponent,
     ThrowErrorComponent,
     RaceComponent,
+    MapToComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],
