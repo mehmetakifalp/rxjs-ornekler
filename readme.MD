@@ -18,11 +18,14 @@
 10. throwError
 11. race
 12. share
+13.
+14.
+15.
 
 **Yapılacaklar Listesi :**
 
 - [x] Sidebar componentin hazırlanması, header ve datatable'da tasarımsal düzenlemeler.
-- [ ] Her operatörün uygulamasının stackblitz'e taşınması ve türkçe açıklamalarının detaylandırılması
+- [x] Her operatörün uygulamasının stackblitz'e taşınması ve türkçe açıklamalarının detaylandırılması
 
 :+1: This Repo looks great - it's ready to merge! :shipit:
 @mehmetakifalp

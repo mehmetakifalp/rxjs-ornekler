@@ -23,6 +23,7 @@ import { TimerComponent } from './content/timer/timer.component';
 import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 import { RaceComponent } from './content/race/race.component';
 import { MapToComponent } from './content/map-to/map-to.component';
+import { ShareComponent } from './content/share/share.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { MapToComponent } from './content/map-to/map-to.component';
     ThrowErrorComponent,
     RaceComponent,
     MapToComponent,
+    ShareComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],
