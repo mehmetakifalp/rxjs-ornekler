@@ -18,8 +18,8 @@
 10. throwError
 11. race
 12. share
-13.
-14.
+13. scan
+14. Rxjs Static ve Instance operatörler
 15.
 
 **Yapılacaklar Listesi :**

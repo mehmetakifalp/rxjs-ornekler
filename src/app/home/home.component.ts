@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit {
     { name: 'combineLatest', description: 'combineLatest', id: 6, url: '/combineLatest' },
     { name: 'fromEvent', description: 'fromEvent', id: 7, url: '/fromEvent' },
     {name: 'share', description: 'share', id:10, url: '/share'},
+    { name: 'Static ve Instance', description: 'Static ve Instance', id: 9, url: '/staticandinstance' },
 
     { name: 'from', description: 'from', id: 19, url: '/from' },
     { name: 'timer', description: 'timer', id: 20, url: '/timer' },

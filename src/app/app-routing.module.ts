@@ -14,6 +14,7 @@ import { TimerComponent } from './content/timer/timer.component';
 import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 import { RaceComponent } from './content/race/race.component';
 import { ShareComponent } from './content/share/share.component';
+import { StaticandistanceComponent } from './content/staticandistance/staticandistance.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -32,6 +33,8 @@ const routes: Routes = [
   { path: 'from', component: FromComponent },
   { path: 'race', component: RaceComponent},
   { path: 'share', component: ShareComponent},
+  { path: 'staticandinstance', component: StaticandistanceComponent},
+
   { path: 'timer', component: TimerComponent },
   { path: 'throwError', component: ThrowErrorComponent },
   { path: 'race', component: RaceComponent }

@@ -23,6 +23,7 @@ import { TimerComponent } from './content/timer/timer.component';
 import { ThrowErrorComponent } from './content/throw-error/throw-error.component';
 import { RaceComponent } from './content/race/race.component';
 import { ShareComponent } from './content/share/share.component';
+import { StaticandistanceComponent } from './content/staticandistance/staticandistance.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { ShareComponent } from './content/share/share.component';
     ThrowErrorComponent,
     RaceComponent,
     ShareComponent,
+    StaticandistanceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],
