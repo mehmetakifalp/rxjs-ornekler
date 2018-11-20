@@ -17,16 +17,18 @@ export class HomeComponent implements OnInit {
     { name: 'groupBy', description: 'groupBy', id: 5, url: '/groupby' },
     { name: 'combineLatest', description: 'combineLatest', id: 6, url: '/combineLatest' },
     { name: 'fromEvent', description: 'fromEvent', id: 7, url: '/fromEvent' },
-    {name: 'share', description: 'share', id:10, url: '/share'},
+    {name: 'share', description: 'share', id:8, url: '/share'},
     { name: 'Static ve Instance', description: 'Static ve Instance', id: 9, url: '/staticandinstance' },
     { name: 'share', description: 'share', id: 10, url: '/share' },
 
-    { name: 'from', description: 'from', id: 19, url: '/from' },
-    { name: 'timer', description: 'timer', id: 20, url: '/timer' },
-    { name: 'throwError', description: 'throwError', id: 21, url: '/throwError' },
-    { name: 'race', description: 'race', id: 9, url: '/race' },
-    { name: 'mapTo', description: 'mapTo', id: 9, url: '/mapTo' },
-    { name: 'scan', description: 'scan', id: 9, url: '/scan' },
+    { name: 'from', description: 'from', id: 11, url: '/from' },
+    { name: 'timer', description: 'timer', id: 12, url: '/timer' },
+    { name: 'throwError', description: 'throwError', id: 13, url: '/throwError' },
+    { name: 'race', description: 'race', id: 14, url: '/race' },
+    { name: 'mapTo', description: 'mapTo', id: 15, url: '/mapTo' },
+    { name: 'scan', description: 'scan', id: 16, url: '/scan' },
+    { name: 'concat', description: 'concat', id: 17, url: '/concat' },
+
   ];
 
   constructor(private jsData: ls) {}

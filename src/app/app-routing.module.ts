@@ -17,6 +17,7 @@ import { MapToComponent } from './content/map-to/map-to.component';
 import { ShareComponent } from './content/share/share.component';
 import { StaticandistanceComponent } from './content/staticandistance/staticandistance.component';
 import { ScanComponent } from './scan/scan.component';
+import { ConcatComponent } from './content/concat/concat.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -44,6 +45,7 @@ const routes: Routes = [
   { path: 'race', component: RaceComponent },
   { path: 'mapTo', component: MapToComponent },
   { path: 'scan', component: ScanComponent },
+  { path: 'concat', component: ConcatComponent}
 ];
 
 @NgModule({
