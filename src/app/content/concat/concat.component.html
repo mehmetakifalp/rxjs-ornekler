@@ -6,28 +6,24 @@
       <p>
         <strong>concat operatörü RXJS'de hem instance hem de static metod olarak kullanılabilir</strong>; <br />
         Concat birden fazla observable kaynağını sizin belirttiğiniz sıradan alarak concat eder.
-        Concat'in merge'den farkı tanımladığınız observable kaynakların sırasıyla çalışmasını sağlar.
+        Concat'in merge'den önemli bir farkı tanımladığınız observable kaynakların sırasıyla çalışmasını sağlar.
 
-        Bir önceki işlem tamamlanmadan diğerine geçmez.
+        Bir önceki kaynağın mutlaka devamına yeni kaynağı ekler/çalıştırır.
 
       </p>
 
       <code>
-        //emits 1,2,3
-const sourceOne = of(1, 2, 3);
-//emits 4,5,6
-const sourceTwo = of(4, 5, 6);
 
-//delay 3 seconds then emit
-const sourceThree = sourceOne.pipe(delay(3000));
-//sourceTwo waits on sourceOne to complete before subscribing
-const example = sourceThree.pipe(concat(sourceTwo));
-//output: 1,2,3,4,5,6
-const subscribe = example.subscribe(val =>
-  console.log('Example: Delayed source one:', val)
-);
+
+        Observable source = (task1, task2, task3, task4); <br />
+        Observable source2 = (task5,task6,task7,task8,task9);<br />
+
+        Onservable concat = source.pipe(concat(source2));<br />
+        Output: task1, task2, task3, task4, task5,task6,task7,task8,task9<br />
+
       </code>
-      <br /><br />
+      <br  />
+      <strong>Stackblitz</strong>
       <div id="stackblitz"></div>
     </main>
   </div>
