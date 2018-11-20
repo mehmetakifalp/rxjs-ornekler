@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { of, concat } from 'rxjs';
+import sdk from '@stackblitz/sdk';
 
 @Component({
   selector: 'app-concat',
@@ -14,7 +14,10 @@ export class ConcatComponent implements OnInit {
 
   ngOnInit() {
 
-    this.createData();
+  }
+
+  ngAfterContentInit() {
+    sdk.embedProjectId('myDiv', 'angular-rxjs-turkce-concat', { height: 500 });
   }
 
 
