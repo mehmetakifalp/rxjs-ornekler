@@ -27,6 +27,7 @@ import { ShareComponent } from './content/share/share.component';
 import { StaticandistanceComponent } from './content/staticandistance/staticandistance.component';
 import { ScanComponent } from './scan/scan.component';
 import { ConcatComponent } from './content/concat/concat.component';
+import { MergeComponent } from './content/merge/merge.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { ConcatComponent } from './content/concat/concat.component';
     StaticandistanceComponent,
     ScanComponent,
     ConcatComponent,
+    MergeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],

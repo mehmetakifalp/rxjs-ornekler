@@ -21,23 +21,18 @@ import { ConcatComponent } from './content/concat/concat.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
-
   { path: 'detay/:id', component: DetailComponent },
-
   { path: 'debouncetime', component: DebouncetimeComponent },
-
   { path: 'zip', component: ZipComponent },
   { path: 'interval', component: IntervalComponent },
   { path: 'range', component: RangeComponent },
   { path: 'groupby', component: GroupbyComponent },
-
   { path: 'combineLatest', component: CombinelatestComponent },
   { path: 'fromEvent', component: FromeventComponent },
   { path: 'from', component: FromComponent },
   { path: 'race', component: RaceComponent},
   { path: 'share', component: ShareComponent},
   { path: 'staticandinstance', component: StaticandistanceComponent},
-
   { path: 'race', component: RaceComponent },
   { path: 'share', component: ShareComponent },
   { path: 'timer', component: TimerComponent },

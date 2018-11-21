@@ -20,7 +20,8 @@
 12. share
 13. scan
 14. Rxjs Static ve Instance operatörler
-15.
+15. concat
+16. merge
 
 **Yapılacaklar Listesi :**
 

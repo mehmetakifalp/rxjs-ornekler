@@ -1,3 +1,31 @@
-<p>
-  merge works!
-</p>
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap">
+    <app-sidebar></app-sidebar>
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+      <h2>merge</h2>
+      <p>
+        <strong>Birden fazla observable'i bir observable'da combine eder.</strong>; <br />
+
+        concat gibi merge'de static ya da instance method olarak kullanılabilir.
+
+        Kendisine merge edilen tüm observable'ları tek noktadan emit edebilir.
+
+
+      </p>
+
+      <code>
+
+
+        Observable source = (task1, task2, task3, task4); <br />
+        Observable source2 = (task5,task6,task7,task8,task9);<br />
+
+        Onservable concat = source.pipe(concat(source2));<br />
+        Output: task1, task2, task3, task4, task5,task6,task7,task8,task9<br />
+
+      </code>
+      <br  />
+      <strong>Stackblitz</strong>
+      <div id="myDiv"></div>
+    </main>
+  </div>
+</div>
