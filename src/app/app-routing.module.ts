@@ -18,6 +18,7 @@ import { ShareComponent } from './content/share/share.component';
 import { StaticandistanceComponent } from './content/staticandistance/staticandistance.component';
 import { ScanComponent } from './scan/scan.component';
 import { ConcatComponent } from './content/concat/concat.component';
+import { MergeComponent } from './content/merge/merge.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -40,7 +41,8 @@ const routes: Routes = [
   { path: 'race', component: RaceComponent },
   { path: 'mapTo', component: MapToComponent },
   { path: 'scan', component: ScanComponent },
-  { path: 'concat', component: ConcatComponent}
+  { path: 'concat', component: ConcatComponent},
+  { path: 'merge', component: MergeComponent}
 ];
 
 @NgModule({

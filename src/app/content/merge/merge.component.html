@@ -11,21 +11,17 @@
         Kendisine merge edilen tüm observable'ları tek noktadan emit edebilir.
 
 
+        - Aşağıda ki örnekte 4 farklı observable kaynak interval yardımıyla birbirinden farklı aralıklarda çalışıyor. Bu 4 observable kaynağı tek observable'a merge ettiğimizde 4 ününde çıktılarını kendi configlerine göre alabiliyorsunuz.
+
+
       </p>
 
-      <code>
-
-
-        Observable source = (task1, task2, task3, task4); <br />
-        Observable source2 = (task5,task6,task7,task8,task9);<br />
-
-        Onservable concat = source.pipe(concat(source2));<br />
-        Output: task1, task2, task3, task4, task5,task6,task7,task8,task9<br />
-
-      </code>
       <br  />
       <strong>Stackblitz</strong>
-      <div id="myDiv"></div>
+      <div id="myDiv">
+
+
+      </div>
     </main>
   </div>
 </div>

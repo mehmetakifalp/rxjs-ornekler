@@ -28,6 +28,7 @@ export class HomeComponent implements OnInit {
     { name: 'mapTo', description: 'mapTo', id: 15, url: '/mapTo' },
     { name: 'scan', description: 'scan', id: 16, url: '/scan' },
     { name: 'concat', description: 'concat', id: 17, url: '/concat' },
+    { name : 'merge', description: 'merge', id:18, url:'/merge'}
 
   ];
 
