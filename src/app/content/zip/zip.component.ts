@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, zip, of } from 'rxjs';
+import { Observable, zip, of, interval } from 'rxjs';
+import { delay, mapTo, take } from 'rxjs/operators';
+import sdk from '@stackblitz/sdk';
+
 
 @Component({
   selector: 'app-zip',
@@ -10,15 +13,11 @@ export class ZipComponent implements OnInit {
 
 
 
-  first = of("mehmet");
-  second = of("akif");
-  third = of("alp");
-  zipped$ = of("");
-
 
   constructor() { }
 
   ngOnInit() {
+
 
 /*
     this.zipped$.pipe(zip(
@@ -32,6 +31,13 @@ export class ZipComponent implements OnInit {
     ));
 
 */
+  }
+
+
+  // angular-rxjs-turkce-zip
+
+  ngAfterContentInit() {
+    sdk.embedProjectId('myDiv', 'angular-rxjs-turkce-zip', { height: 500 });
   }
 
 }

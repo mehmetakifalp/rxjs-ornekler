@@ -1,5 +1,26 @@
-<p>
-  zip works!
-</p>
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap">
+    <app-sidebar></app-sidebar>
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+      <h2>zip()</h2>
+      <p>
+        <strong>zip() rxjs combine işlemleri arasında concat ve merge le beraber kullanılan operatörlerden biridir.</strong>; <br />
 
-{{zipped$ | async}}
+        zip'in merge ve concat'ten farkı beslendiği multiple observable kaynakların tamamının en az 1 value dönmesini bekler ve öyyleleme işlemini çalıştırır.
+
+        Örnekte interval 100000 ms olan bir observable resource var, 100000 ms sonunda yayın yapılana kadar zip() çalışmaz.
+
+        Bir önceki kaynağın mutlaka devamına yeni kaynağı ekler/çalıştırır.
+
+      </p>
+
+
+      <br  />
+      <strong>Stackblitz</strong>
+      <div id="myDiv">
+
+
+      </div>
+    </main>
+  </div>
+</div>
