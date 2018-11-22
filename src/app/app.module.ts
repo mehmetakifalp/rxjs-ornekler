@@ -29,6 +29,7 @@ import { ScanComponent } from './scan/scan.component';
 import { ConcatComponent } from './content/concat/concat.component';
 import { MergeComponent } from './content/merge/merge.component';
 import { FirstComponent } from './content/first/first.component';
+import { ExpandComponent } from './content/expand/expand.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { FirstComponent } from './content/first/first.component';
     ConcatComponent,
     MergeComponent,
     FirstComponent,
+    ExpandComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxDatatableModule, HttpClientModule],
   providers: [ls, HomeComponent],
