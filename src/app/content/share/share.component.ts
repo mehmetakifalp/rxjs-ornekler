@@ -13,30 +13,20 @@ export class ShareComponent implements AfterViewInit {
 
   constructor() { }
 
-
-
-
-
-
-notifyData = of([{
-  value:"test 1"
-}, {
-  value:"test 2"
-},{
-  value:"test 3"
-}]);
-
+  notifyData = of([{
+    value:"test 1"
+  }, {
+    value:"test 2"
+  },{
+    value:"test 3"
+  }]);
 
 @ViewChild('app') myApp;
-
-
 ngAfterViewInit() {
     const click$ = fromEvent(this.myApp, 'click');
     const sub1 = click$.subscribe(val => {
       console.log('sub1:', val);
     });
-
-
 
     const sub2 = click$.subscribe(val => {
       console.log('sub2:', val);
