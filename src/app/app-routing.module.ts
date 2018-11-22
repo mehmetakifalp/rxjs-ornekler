@@ -19,6 +19,7 @@ import { StaticandistanceComponent } from './content/staticandistance/staticandi
 import { ScanComponent } from './scan/scan.component';
 import { ConcatComponent } from './content/concat/concat.component';
 import { MergeComponent } from './content/merge/merge.component';
+import { FirstComponent } from './content/first/first.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -42,7 +43,8 @@ const routes: Routes = [
   { path: 'mapTo', component: MapToComponent },
   { path: 'scan', component: ScanComponent },
   { path: 'concat', component: ConcatComponent},
-  { path: 'merge', component: MergeComponent}
+  { path: 'merge', component: MergeComponent},
+  { path: 'first', component: FirstComponent}
 ];
 
 @NgModule({
