@@ -20,6 +20,7 @@ import { ScanComponent } from './scan/scan.component';
 import { ConcatComponent } from './content/concat/concat.component';
 import { MergeComponent } from './content/merge/merge.component';
 import { FirstComponent } from './content/first/first.component';
+import { ExpandComponent } from './content/expand/expand.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -44,7 +45,8 @@ const routes: Routes = [
   { path: 'scan', component: ScanComponent },
   { path: 'concat', component: ConcatComponent},
   { path: 'merge', component: MergeComponent},
-  { path: 'first', component: FirstComponent}
+  { path: 'first', component: FirstComponent},
+  {path: 'expand', component: ExpandComponent}
 ];
 
 @NgModule({
