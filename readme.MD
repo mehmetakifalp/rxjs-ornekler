@@ -22,6 +22,7 @@
 14. Rxjs Static ve Instance operatörler
 15. concat
 16. merge
+17. first
 
 **Yapılacaklar Listesi :**
 
