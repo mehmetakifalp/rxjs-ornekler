@@ -45,8 +45,8 @@ const routes: Routes = [
   { path: 'scan', component: ScanComponent },
   { path: 'concat', component: ConcatComponent},
   { path: 'merge', component: MergeComponent},
-  { path: 'first', component: FirstComponent},
-  {path: 'expand', component: ExpandComponent}
+  { path: 'first', component: FirstComponent}
+ // {path: 'expand', component: ExpandComponent}
 ];
 
 @NgModule({
