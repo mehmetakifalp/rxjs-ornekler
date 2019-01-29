@@ -1,4 +1,4 @@
-# Angular7 - Rxjs
+# Rxjs
 
 - Bu repo'da RXJS uygulamalarla beraber, Türkçe olarak kullanım alanlarını yazdık.
 
@@ -28,6 +28,7 @@
 
 - [x] Sidebar componentin hazırlanması, header ve datatable'da tasarımsal düzenlemeler.
 - [x] Her operatörün uygulamasının stackblitz'e taşınması ve türkçe açıklamalarının detaylandırılması
+- [] Yeni operatörler; distinctUntilChanged, switchMap, mergeMap
 
 :+1: This Repo looks great - it's ready to merge! :shipit:
 @mehmetakifalp
